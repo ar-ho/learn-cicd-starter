@@ -18,5 +18,5 @@ jobs:
         with:
           node-version: 22
 
-      - name: Echo Go version
-        run: go version
+      - name: runs tests
+        run: go test ./...
